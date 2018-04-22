@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Routes in application
 
-/success 
+/success <br>
 /signup
 
 ## Development server
