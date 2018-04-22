@@ -1,0 +1,25 @@
+$grey : grey;
+$red : #FB2d42;
+$blue : #264071;
+
+.centerthis
+{
+    text-align: center;
+
+    .container-one_image{
+        width: 800px;
+    }
+
+    .container-one{
+        h1{
+            color: $red;
+            font-weight: bold;
+        }
+        .container-one_red{
+            color: $red;
+        }
+        .container-one_blue{
+            color: $blue;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+$grey : grey;
+$red : #FB2d42;
+$blue : #264071;
+
+.centerthis
+{
+    text-align: center;
+
+    .container-one_image{
+        width: 800px;
+    }
+
+    .container-one{
+
+
+        hr{
+            width: 21px;
+            display: inline-flex;
+            background: $grey;
+            position: relative;
+            bottom: 4px;
+        }
+
+        .btn {
+            background-color: white;
+            color: black;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            color: $grey
+        }
+
+        .btn:hover{
+            border: 2px solid $red;
+            color: $red; 
+        }
+
+        .btn:focus{
+            border-color: $red ;
+            box-shadow: inset 0 1px 1px $red, 0 0 8px $red;
+        }
+
+        h1{
+            color: $red;
+            font-weight: bold;
+        }
+        .container-one_red{
+            color: $red;
+        }
+        .container-one_blue{
+            color: $blue;
+        }
+    }
+}
